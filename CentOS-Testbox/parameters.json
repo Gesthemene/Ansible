@@ -27,13 +27,13 @@
             "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhJEscaU3jgzvJ9z8UlKeNXdfn1xEYKh60TqYbPlgZ2ZsZBFbZZEyIyDoFVqbJnOEcuIEIk28kg/YJpbhAlsKLw8OFouRUHU3W0dzsAZAXkZD5VC0bifTXci7BcEz/7Ty6IRjdO4cfSSFVH62otO/2nTfyfpLoXwXiCw86i+IFMNUeSyalCXP0qTWWYC0CuM6GiINdU/q2995vR7zBzf1LHelJdo1lamJw7fCm5jl1Thzs5f8NWPzEFizF9fZEMWc7BqozSPsNbptbKOH/UZBXbHrfDiqYBYU5Lct6C0io8p9ngCKqSimzhA/F0ZFE78PhkGF1QdJhEYT26xkkKsOLQ=="
         },
         "storageAccountName": {
-            "value": "devopstestingdiag177"
+            "value": "devopsCentOStesting"
         },
         "diagnosticsStorageAccountName": {
-            "value": "devopstestingdiag177"
+            "value": "devopsCentOStesting"
         },
         "diagnosticsStorageAccountId": {
-            "value": "/subscriptions/8a1df35f-e805-45d2-8cb2-2e91b0a711ce/resourceGroups/devops-testing/providers/Microsoft.Storage/storageAccounts/devopstestingdiag177"
+            "value": "/subscriptions/8a1df35f-e805-45d2-8cb2-2e91b0a711ce/resourceGroups/devops-testing/providers/Microsoft.Storage/storageAccounts/devopsCentOStesting"
         },
         "subnetName": {
             "value": "default"
