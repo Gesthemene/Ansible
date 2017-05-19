@@ -1,0 +1,47 @@
+---
+# tasks file for javaapp
+- name: install java 1.7.0 sdk
+  yum:
+    name: java-1.7.0-openjdk-devel
+    state: latest
+
+- name: install git
+  yum:
+    name: git
+    state: latest
+
+- name: install wget
+  yum:
+    name: wget
+    state: latest
+
+- name: install ssh
+  yum:
+    name: ssh
+    state: latest
+
+- name: install epel
+  yum:
+    name: epel-release
+    state: latest
+
+- name: install python v3
+  yum:
+    name: python34
+    state: latest
+
+- name: Get leiningen (lein)
+  get_url:
+    url: https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+    dest: /usr/local/bin
+
+- name: Enable execute permissions on lein
+  file: 
+    path: /usr/local/bin/lein
+    state: touch
+    mode: "a+x"
+
+- name: Execute lein
+  shell: /usr/local/bin/lein
+
+
